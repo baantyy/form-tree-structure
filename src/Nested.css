@@ -1,0 +1,14 @@
+.nested {
+    max-width: 90%;
+    width: 100%;
+    margin: 50px auto;
+}
+.nested button {
+    margin: 0 0 10px;
+}
+.nested .block > .block {
+    padding: 0 0 0 50px;
+}
+.nested .block button {
+    margin: 0 0 10px 50px;
+}
