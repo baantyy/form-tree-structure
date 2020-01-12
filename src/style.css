@@ -1,0 +1,30 @@
+.nested {
+    max-width: 90%;
+    width: 100%;
+    margin: 50px auto;
+}
+.nested button {
+    margin: 0 0 10px;
+}
+.nested .block > .block {
+    padding: 0 0 0 50px;
+}
+.nested .block button {
+    margin: 0 0 10px 50px;
+}
+.nested .form {
+    position: relative;
+}
+.nested .form > .delete {
+    margin: 0 !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+}
+.nested .submit {
+    text-align: right;
+}
